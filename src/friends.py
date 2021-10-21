@@ -22,4 +22,12 @@ def remove_friend(person, ex_friend):
 
     person["friends"].remove(ex_friend)
 
+def total_money(people):
+    total_cash = 0
+
+    for person in people:
+        total_cash += person["monies"]
+    
+    return total_cash
+
 
