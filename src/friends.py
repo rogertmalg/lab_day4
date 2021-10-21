@@ -18,3 +18,8 @@ def add_friend(person, new_friend):
     person["friends"].append(new_friend)
 
 
+def remove_friend(person, ex_friend):
+
+    person["friends"].remove(ex_friend)
+
+
