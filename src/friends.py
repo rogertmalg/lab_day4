@@ -14,4 +14,7 @@ def likes_to_eat(person,food):
     
     return food_found
 
+def add_friend(person, new_friend):
+    person["friends"].append(new_friend)
+
 

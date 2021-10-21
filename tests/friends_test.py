@@ -81,7 +81,7 @@ class TestFriends(unittest.TestCase):
   def test_person_likes_food__True(self):
     self.assertEqual(True, likes_to_eat(self.person2, "bread"))
 
-  @unittest.skip("delete this line to run the test")
+  # @unittest.skip("delete this line to run the test")
   def test_person_likes_food__False(self):
     self.assertEqual(False, likes_to_eat(self.person3, "spinach"))
 
@@ -89,7 +89,7 @@ class TestFriends(unittest.TestCase):
   # 4. For a given person, add a new name to their list of friends
   # (e.g. the function add_friend(self.person2, "Scrappy-Doo") should add Scrappy-Doo to the friends.)
   # (hint: This function should not return anything. After the function call, check for the length of the friends array to test it!)
-  @unittest.skip("delete this line to run the test")
+  # @unittest.skip("delete this line to run the test")
   def test_add_friend(self):
     add_friend(self.person2, "Scrappy-Doo")
     self.assertEqual(2, len(self.person2["friends"]))
