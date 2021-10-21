@@ -30,4 +30,8 @@ def total_money(people):
     
     return total_cash
 
+def l_money(person2, person1, money_lent):
+    person1["monies"] += money_lent
+    person2["monies"] -= money_lent
+
 
