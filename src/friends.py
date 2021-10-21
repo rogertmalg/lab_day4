@@ -52,6 +52,5 @@ def find_no_friendends(people):
     for person in people:
         if len(person["friends"]) == 0:
             friendless.append(person)
-            # friendless += person
-    pdb.set_trace()
+    
     return friendless
