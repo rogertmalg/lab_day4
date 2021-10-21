@@ -69,8 +69,7 @@ class TestFriends(unittest.TestCase):
     self.assertEqual("Daphne", result)
 
   # 2. For a given person, return their favourite tv show
-  # (e.g. the function favourite_tv_show(self.person2) should return the string "Baywatch")
-  @unittest.skip("delete this line to run the test")  
+  # (e.g. the function favourite_tv_show(self.person2) should return the string "Baywatch")  
   def test_get_favourite_tv_show(self):
     result = get_favourite_tv_show(self.person2)
     self.assertEqual("Baywatch", result)
